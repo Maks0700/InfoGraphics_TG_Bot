@@ -1,12 +1,12 @@
 from aiogram import types,Dispatcher,Bot,executor
 from api_token import api_token
 from icecream import ic
-import os
+
 from keyboadrs import *
 from aiogram.dispatcher.filters import Text
-import cons
+
 from aiogram.types import MediaGroup,InputMediaPhoto
-import time
+
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import datetime,timedelta
 from Other_func import *
